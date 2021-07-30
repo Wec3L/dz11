@@ -53,6 +53,9 @@ body {
     line-height: 20px;
     color: #000000;
 }
+.first {
+    margin-right: 51px;
+}
 @-webkit-keyframes hvr-push {
     50% {
       -webkit-transform: scale(0.8);
@@ -97,7 +100,7 @@ body {
     align-self: flex-end;
 }
 .logo {
-    margin-right: 51px;
+    
     padding-top: 26px;
     padding-bottom: 24px;
 }
@@ -144,7 +147,14 @@ body {
 .flex {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     margin-bottom: 145px;
+}
+.main-icon {
+    width: 684px;
+}
+.margin-left {
+    margin-left: 75px;
 }
 .heading {
     font-family: 'Graphik LCG', serif;
@@ -183,6 +193,7 @@ body {
 .flex-box {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 .subheading {
     font-weight: 600;
@@ -196,10 +207,13 @@ body {
     width: 720px; 
 }
 .imgcon {
+    display: flex;
     padding-bottom: 94px;
+    align-items: center;
 }
 .brand-icon {
     margin-right: 103px;
+    display: inline-block;
 }
 .brand-icon:last-child {
     margin-right: 0px;
@@ -208,6 +222,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 250px;
 }
 .safe {
@@ -262,14 +277,19 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.icon-flex {
+    display: flex;
+    justify-content: center;
+}
 .card-box {
+    
     width: 330px;
     margin-bottom: 57px;
     
 }
 .card-icon {
     margin-bottom: 26px;
-    margin-left: 85px;
+    text-align: center;
     
 }
 .card-heading {
@@ -299,6 +319,8 @@ body {
     align-items: baseline;
 }
 .second-card-icon {
+    width: 179px;
+    height: 166px;
     margin-bottom: 49px;
     margin-left: 0;
 }
@@ -312,7 +334,8 @@ body {
     margin-bottom: 25px;
 }
 .padding {
-    padding-bottom: 150px;
+    padding-bottom: 217px;
+    
 }
 .sub-background {
     background-color: #C9E8F2;
@@ -337,8 +360,9 @@ body {
     color: #000;
     margin-bottom: 7px;
 }
-.revolut {
-    padding-bottom: 82px;
+.relolut-link {
+    display: inline-block;
+    margin-bottom: 82px;
 }
 .Ustal-pridumivat {
     margin-right: 84px;
@@ -352,8 +376,8 @@ body {
 }
 .pie {
     margin-right: 67px;
-    padding-top: 64px;
-    padding-bottom: 89px;
+    margin-top: 64px;
+    margin-bottom: 89px;
 }
 .title {
     font-weight: 600;
@@ -363,8 +387,10 @@ body {
     width: 461px;
     margin-right: 124px;
 }
-.users {
+.brand-border {
     border-left: 1px solid black;
+}
+.users {
     margin-right: 70px;
     padding-left: 70px;
 }
@@ -465,12 +491,12 @@ body {
     margin-bottom: 31px;
 }
 .specialized {
-    margin-bottom: 11px;
     width: 80px;
     height: 30px;
 }
 .link-block {
-    display: block;
+    display: inline-block;
+    margin-bottom: 11px;
 }
 .super-last-parag {
     width: 290px;
@@ -484,7 +510,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #000;
-    padding-bottom: 95px;
+    margin-bottom: 95px;
     text-decoration: none;
     display: inline-block;
 }
@@ -509,9 +535,8 @@ body {
     margin-bottom: 0;
 }
 .flex-container2 {
-    flex-direction: column;
-    margin-right: 109px;
-   
+    width: 187px;
+    margin-right: 68px; 
 }
 .flex-container2:last-child {
     margin-right: 0;
