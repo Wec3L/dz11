@@ -27,6 +27,7 @@
 body {
     font-family: 'Graphik LCG', serif;
     font-weight: normal;
+    min-width: 320px;
 }
 .container {
     margin-left: auto;
@@ -289,7 +290,6 @@ body {
 }
 .card-icon {
     margin-bottom: 26px;
-    text-align: center;
     
 }
 .card-heading {
@@ -438,7 +438,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 70px;
     
 }
 .last-heading {
@@ -564,3 +563,330 @@ body {
     font-size: 11px;
     line-height: 11px;
 }
+
+@media (max-width: 1289px) {
+    .container {
+        width: 100%;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .button-box {
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+    .first {
+         margin-right: 0px;
+    }
+    .logo {
+        padding-bottom: 0px;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .main-icon {
+        padding: 50px 0px;
+    }
+    .margin-left {
+        margin-left: 0px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .heading {
+        width: auto;
+    }
+    .parag {
+        width: auto;
+    }
+    .background {
+        margin-bottom: 0px;
+    }
+    .subheading {
+        margin-left: 0px;
+    }
+    .flex-box {
+        justify-content: center;
+    }
+    .imgcon {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-con {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .short-heading {
+        padding-top: 50px;
+        width: auto;
+        text-align: center;
+    }
+    .decription {
+        width: auto;
+        text-align: center;
+    }
+    .safe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .start {
+        margin-bottom: 30px;
+    }
+    .card-box {
+        padding: 0px 50px;
+    }
+    .second {
+        padding-top: 80px;
+        margin-bottom: 50px;
+        width: auto;
+    }
+    .second-flex-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .padding {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .second-card-heading {
+        text-align: center;
+    }
+    .second-card-parag {
+        text-align: center;
+    }
+    .big-heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flex-garage {
+        flex-direction: column;
+        align-items: center;
+    }
+    .man {
+        padding-top: 20px;
+    }
+    .Ustal-pridumivat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        padding: 0px 20px;
+    }
+    .big-parag {
+        width: auto;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .relolut-link {
+        margin-bottom: 35px;
+    }
+    .flex-zzz {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .title {
+        margin-right: 0px;
+        
+    }
+    .pie {
+        margin-bottom: 60px;
+    }
+    .brand-border {
+        border: none;
+    }
+    .pre-last-flex {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pre-last-heading {
+        padding-top: 60px;
+        font-size: 50px;
+        line-height: 60px;
+        width: auto;
+    }
+    .bird {
+        width: 100%;
+    }
+    .pre-last-button {
+        margin-bottom: 70px;
+    }
+    .flex-flex {
+        display: flex;
+        padding-left: 20px;
+    }
+    .super-last-flex {
+        flex-wrap: wrap;
+    }
+    .flex-container2 {
+        padding-left: 20px;
+    }
+    .ultra-last-flex {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .last-heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .item-menu {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+    .main-icon {
+        width: 100%;
+    }
+    .heading {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .parag {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .subbutton {
+        margin-bottom: 10px;
+    }
+    .subheading {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        padding-top: 50px;
+    }
+    .brand-icon {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .brand-icon:first-child {
+        margin-bottom: 20px;
+    }
+    .imgcon {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .img-size {
+        width: 100%;
+    }
+    .second-card-parag {
+        width: auto;
+    }
+    .big-heading {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .man {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 290px;
+    }
+    .big-parag {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .icon-revolut {
+        width: 90px;
+    }
+    .flex-zzz {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        
+    }
+    .pie {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .title {
+        width: auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .brand-border {
+        display: flex;
+        flex-direction: column;
+    }
+    .users {
+        margin-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    .pre-last-heading {
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+    .pre-last-parag {
+        width: auto;
+    }
+    .bird {
+        margin-bottom: 30px;
+    }
+    .last-heading {
+        width: auto;
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .last-big-parag {
+        width: auto;
+    }
+    .last-button {
+        margin-bottom: 50px;
+    }
+    .last-icon {
+        width: auto;
+    }
+    .flex-container2 {
+        margin-bottom: 35px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .flex-flex {
+        align-items: center;
+        padding-right: 20px;
+        margin-right: 0px;
+    }
+    .super-last-parag {
+        text-align: center;
+        width: auto;
+    }
+    .super-last-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-name {
+        text-align: center;
+    }
+    .list {
+        text-align: center;
+    }
+    .ultra-last-flex {
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+    .ultra-last-parag {
+        margin-right: 30px;
+    }
+    .last-big-parag {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}    
