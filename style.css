@@ -723,7 +723,7 @@ body {
     }
     .flex-flex {
         display: flex;
-        padding-left: 20px;
+        
     }
     .super-last-flex {
         flex-wrap: wrap;
@@ -861,7 +861,6 @@ body {
     }
     .flex-flex {
         align-items: center;
-        padding-right: 20px;
         margin-right: 0px;
     }
     .super-last-parag {
