@@ -148,14 +148,10 @@ body {
 .flex {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
     margin-bottom: 145px;
 }
 .main-icon {
     width: 684px;
-}
-.margin-left {
-    margin-left: 75px;
 }
 .heading {
     font-family: 'Graphik LCG', serif;
